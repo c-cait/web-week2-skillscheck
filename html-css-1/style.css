@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: gray;
+    color: white;
+    padding: 0 40px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-links > li {
+    display: inline;
+
+}
+
+.company {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-item {
+    margin-right: 40px;
+}
+
+.more-you-know {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.text-know {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 10px;
+    color: yellow;
+    font-size: 70px;
+}
+
+.teal-divs {
+    margin: 100px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teal-divs > div {
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    border-radius: 10px;
+    background: teal;
+}
+
+.orange-divs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 100px 40px;
+}
+
+.orange-divs > div {
+    height: 0;
+    padding-bottom: 22%;
+    width: 45%;
+    background: orange;
+}
+
+.content-divs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px 100px 40px;
+}
+
+.content-divs > div {
+    height: 0;
+    padding-bottom: 22%;
+    width: 45%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.item1 {
+    padding: 60px 5px;
+}
+
+.item2 {
+    text-align: center;
+}
+
+footer {
+    background: navy;
+    height: 100px;
+}
